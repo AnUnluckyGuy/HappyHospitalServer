@@ -107,7 +107,7 @@ public class NPC extends Character {
     }
 
     public void draw(Connection connection) {
-        connection.sendData("opponent " + state + " " 
+        connection.sendData("NPC " + state + " " 
         + this.getX() + " " + this.getY() + " "
         + this.getSize() + " " + this.getSize());
     }
